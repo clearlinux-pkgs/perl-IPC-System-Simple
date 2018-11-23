@@ -4,7 +4,7 @@
 #
 Name     : perl-IPC-System-Simple
 Version  : 1.25
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
 Summary  : 'Run commands simply, with detailed diagnostics'
@@ -74,7 +74,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/IPC/System/Simple.pm
+/usr/lib/perl5/vendor_perl/5.28.0/IPC/System/Simple.pm
 
 %files dev
 %defattr(-,root,root,-)
