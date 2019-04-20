@@ -4,7 +4,7 @@
 #
 Name     : perl-IPC-System-Simple
 Version  : 1.25
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
 Summary  : 'Run commands simply, with detailed diagnostics'
