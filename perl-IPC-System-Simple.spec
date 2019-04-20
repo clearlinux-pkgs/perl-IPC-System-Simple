@@ -4,10 +4,10 @@
 #
 Name     : perl-IPC-System-Simple
 Version  : 1.25
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
-Summary  : 'Run commands simply, with detailed diagnostics'
+Summary  : Run commands simply, with detailed diagnostics
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-IPC-System-Simple-license = %{version}-%{release}
@@ -22,6 +22,7 @@ Run commands simply, with detailed diagnostics
 Summary: dev components for the perl-IPC-System-Simple package.
 Group: Development
 Provides: perl-IPC-System-Simple-devel = %{version}-%{release}
+Requires: perl-IPC-System-Simple = %{version}-%{release}
 
 %description dev
 dev components for the perl-IPC-System-Simple package.
