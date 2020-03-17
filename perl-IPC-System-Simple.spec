@@ -4,10 +4,10 @@
 #
 Name     : perl-IPC-System-Simple
 Version  : 1.26
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.26.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.26.tar.gz
-Summary  : Run commands simply, with detailed diagnostics
+Summary  : 'Run commands simply, with detailed diagnostics'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-IPC-System-Simple-perl = %{version}-%{release}
@@ -22,7 +22,6 @@ Run commands simply, with detailed diagnostics
 Summary: dev components for the perl-IPC-System-Simple package.
 Group: Development
 Provides: perl-IPC-System-Simple-devel = %{version}-%{release}
-Requires: perl-IPC-System-Simple = %{version}-%{release}
 Requires: perl-IPC-System-Simple = %{version}-%{release}
 
 %description dev
@@ -83,4 +82,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/IPC/System/Simple.pm
+/usr/lib/perl5/vendor_perl/5.30.2/IPC/System/Simple.pm
